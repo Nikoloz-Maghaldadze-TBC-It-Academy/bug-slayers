@@ -1,0 +1,24 @@
+@use "./common/fonts" as *;
+@use "./common/variables" as *;
+@use "./components/footer" as *;
+@use "./components/header" as *;
+@use "./layouts/david" as *;
+@use "./layouts/mariam" as *;
+@use "./layouts/nika" as *;
+@use "./layouts/gigi" as *;
+@use "./mixins/mixins" as *;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+
+.frame {
+  width: 100%;
+  max-width: 144rem;
+  height: auto;
+}
