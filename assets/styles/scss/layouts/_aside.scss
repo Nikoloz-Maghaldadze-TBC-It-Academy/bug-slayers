@@ -1,0 +1,70 @@
+.goal-aside {
+  width: 100%;
+  max-width: 44rem;
+  background: pink;
+  height: 100%;
+  border-radius: 0.5rem;
+
+  .aside-first-div {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 0.5rem;
+
+    .aside-first-inner1 {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+
+      span {
+     color: black;
+     background-color: white;
+     padding: 0.3rem 0.3rem;
+     border-radius: 0.8rem; 
+    }
+
+    button {
+      background-color: black;
+      color:white;
+      padding: 0.5rem 1rem;
+      border-radius: 0.5rem;
+      border:none;
+    }
+    }
+
+    .aside-first-inner2 {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+
+      h2 {
+        color:black;
+        font-weight: bold;
+        font-size: 2rem;
+      }
+
+      p {
+        font-weight: bold;
+        font-size: 1.4rem;
+      }
+    }
+
+    .aside-first-inner3 {
+      width: 100%;
+
+      span {
+        font-weight: bold;
+        font-size: 2rem;
+      }
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color:black;
+    }
+
+  }
+}

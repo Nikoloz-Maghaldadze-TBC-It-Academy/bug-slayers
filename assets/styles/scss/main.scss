@@ -1,0 +1,40 @@
+@use "./common/fonts" as *;
+@use "./common/variables" as *;
+@use "./components/header" as *;
+@use "./layouts/section" as *;
+@use "./layouts/aside" as *;
+@use "./mixins/mixins" as *;
+@use "./layouts/puzzle1" as *;
+@use "./layouts/puzzle2" as *;
+@use "./layouts/puzzle3" as *;
+@use "./layouts/puzzle-header" as *;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+
+.frame {
+  width: 100%;
+  max-width: 144rem;
+  height: auto;
+  background: rgb(9, 0, 35);
+  border-radius: 2rem;
+  height: auto;
+  padding: 2rem 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  main {
+    width: 100%;
+    max-width: 144rem;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+}

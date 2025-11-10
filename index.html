@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/styles/css/vendors/reset.css" />
+    <link rel="stylesheet" href="./assets/styles/css/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="frame">
+      <header>
+        <div class="header-div">
+          <div class="header-div-inner1">
+            <span>Escape Room - </span>
+            <span>Room 404</span>
+          </div>
+ 
+          <div class="header-div-inner2">
+            <span>Time</span>
+            <span id="countdown">20:00</span>
+          </div>
+        </div>
+      </header>
+ 
+      <main>
+        <aside class="goal-aside">
+          <div class="aside-first-div">
+            <div class="aside-first-inner1">
+              <h1 class="aside-progress">Progress</h1>
+              <span class="aside-puzzle"
+                >Puzzle
+                <span class="aside-puzzle-id"></span>
+                /3</span
+              >
+              <div class="aside-buttons">
+                <button class="aside-hint">Hint</button>
+                <button class="aside-reset">Reset Puzzle</button>
+                <button class="aside-restart">Restart Run</button>
+              </div>
+            </div>
+ 
+            <div class="aside-first-inner2">
+              <h2 class="aside-goals">Goal</h2>
+              <p class="aside-goalp">
+                Solve the 3 chained puzzles to discover the
+                <span class="aside-puzzle-name"></span>. Unlock the door and
+                escape before time runs out!
+              </p>
+            </div>
+ 
+            <div class="aside-first-inner3">
+              <span>Inventory</span>
+              <ul>
+                <li class="aside-ul-item">Item 1</li>
+                <li class="aside-ul-item">Item 1</li>
+                <li class="aside-ul-item">Item 1</li>
+              </ul>
+            </div>
+          </div>
+        </aside>
+        <section class="puzzle-container">
+          <section>
+            <div class="puzzle-1">
+              <div class="puzzle-header">
+                <div class="puzzle-header-name">
+                  <p>Puzzle 1 -- The Painting</p>
+                </div>
+                <div class="puzzle-header-description">
+                  A dusty painting hangs on the wall. A desk lamp nearby has a
+                  UV bulb
+                </div>
+              </div>
+              <div class="puzzle-1-wrapper">
+                <div class="lamp-container">
+                  <div class="lamp-toggle">
+                    <input class="toggle-input" type="checkbox" />
+                    <p>Toggle UV Lamp</p>
+                  </div>
+                  <div class="lamp-answer-cont">
+                    <div class="lamp-answer-inner-cont">
+                      <p>Abstract Shapes</p>
+                      <span id="puzzle-1-code">100</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="code-container">
+                  <div class="code-cont-inner">
+                    <input id="code-input" type="text" />
+                    <button class="code-submit">Submit</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="puzzle-2">
+              <div class="puzzle-2-container">
+                <h2>puzzle-2</h2>
+                <p>small panel th four arrow button</p>
+                <div class="arrows-container">
+                  <div value="1" class="arrow arrow-up">&#x2191;</div>
+                  <div value="4" class="arrow arrow-left">&#x2192;</div>
+                  <div value="3" class="arrow arrow-right">&#x2190;</div>
+                  <div value="2" class="arrow arrow-down">&#x2193;</div>
+                </div>
+                <div class="task-description">
+                  <h3>Input</h3>
+                  <div class="directions">
+                    <p id="up"></p>
+                    <p id="right"></p>
+                    <p id="down"></p>
+                    <p id="left"></p>
+                  </div>
+                </div>
+              </div>
+              <div class="down-side">
+                <p>Panel clicks lock in the second digt.</p>
+                <button class="button-next">Next</button>
+              </div>
+            </div>
+ 
+            <!-- !amaze mushaob -->
+            <div class="puzzle-3">
+              <h2 class="puzzle-3__header">Puzzle 3 - The teminal note</h2>
+              <h4 class="puzzle-3__description">
+                A sticky note on terminal reads: "In JavaScript, typeof null
+                equals ?"
+              </h4>
+              <div class="answer-buttons">
+                <button class="btn-answer">string</button>
+                <button class="btn-answer">object</button>
+                <button class="btn-answer">null</button>
+              </div>
+              <div class="pincode-wrapper">
+                <div class="left-container">
+                  <h3 class="left-container__header">Keypad</h3>
+                  <p class="left-container__paragraph">
+                    Enter the 3-digit code to unlock door
+                  </p>
+                  <div class="pincode-container">
+                    <div class="pincode-input">
+                      <div id="code1"></div>
+                      <div id="code2"></div>
+                      <div id="code3"></div>
+                    </div>
+                    <div class="numbers-buttons">
+                      <button class="number-btn">1</button>
+                      <button class="number-btn">2</button>
+                      <button class="number-btn">3</button>
+                      <button class="number-btn">4</button>
+                      <button class="number-btn">5</button>
+                      <button class="number-btn">6</button>
+                      <button class="number-btn">7</button>
+                      <button class="number-btn">8</button>
+                      <button class="number-btn">9</button>
+                      <button class="number-btn" id="center">0</button>
+                    </div>
+                    <div class="submit-buttons">
+                      <button>Unlock</button>
+                      <button id="clear">Clear</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="right-container">
+                  <h2 class="right-container__header">Digits found</h2>
+                  <div class="found-digits">
+                    <div>Digit1: 4</div>
+                    <div>Digit2: 0</div>
+                    <!-- <div>Digit3: 4</div> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </section>
+      </main>
+    </div>
+    <script type="module" src="./scripts/index.mjs"></script>
+  </body>
+</html>
