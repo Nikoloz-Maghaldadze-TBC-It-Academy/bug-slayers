@@ -36,15 +36,16 @@ export function puzzle2() {
 
     if (!isCorrectSoFar) {
       console.log("Wrong combination, reset!");
-      output.textContent = 'wrong combination'
+      output.textContent = "wrong combination";
       userSequence = [];
       return;
     }
 
     if (userSequence.length === correctCombination.length) {
       console.log("TRUE — Correct combination!");
-      output.textContent = 'correct combination'
+      output.textContent = "correct combination";
       userSequence = [];
+      return true;
     }
   }
 }
