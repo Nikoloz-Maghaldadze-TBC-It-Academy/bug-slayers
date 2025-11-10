@@ -9,7 +9,6 @@ export default function startCountdown(minutes, elementId) {
         return;
     }
 
-    // Helper to update the display
     function updateDisplay() {
         const mins = Math.floor(remainingSeconds / 60);
         const secs = remainingSeconds % 60;
@@ -17,7 +16,7 @@ export default function startCountdown(minutes, elementId) {
             `${String(mins).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
     }
 
-    updateDisplay(); // Initial display
+    updateDisplay();
 
     const interval = setInterval(() => {
         remainingSeconds--;
