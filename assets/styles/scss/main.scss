@@ -1,12 +1,12 @@
 @use "./common/fonts" as *;
 @use "./common/variables" as *;
-@use "./components/footer" as *;
 @use "./components/header" as *;
-@use "./layouts/david" as *;
-@use "./layouts/mariam" as *;
-@use "./layouts/nika" as *;
-@use "./layouts/gigi" as *;
+@use "./layouts/section" as *;
+@use "./layouts/aside" as *;
 @use "./mixins/mixins" as *;
+@use "./layouts/puzzle1" as *;
+@use "./layouts/puzzle2" as *;
+@use "./layouts/puzzle3" as *;
 
 * {
   margin: 0;
@@ -21,4 +21,18 @@ html {
   width: 100%;
   max-width: 144rem;
   height: auto;
+  background: blueviolet;
+  height: auto;
+  padding: 2rem 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  main {
+    width: 100%;
+    max-width: 144rem;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
 }

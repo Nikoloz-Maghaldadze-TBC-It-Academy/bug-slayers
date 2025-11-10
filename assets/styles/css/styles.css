@@ -1,3 +1,24 @@
+header {
+  max-width: 144rem;
+  width: 100%;
+  background-color: blue;
+  height: 4rem;
+}
+
+.puzzle-container {
+  max-width: 100rem;
+  width: 100%;
+  background: navy;
+  height: auto;
+}
+
+.goal-aside {
+  width: 100%;
+  max-width: 44rem;
+  background: pink;
+  height: 100%;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -12,6 +33,20 @@ html {
   width: 100%;
   max-width: 144rem;
   height: auto;
+  background: blueviolet;
+  height: auto;
+  padding: 2rem 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.frame main {
+  width: 100%;
+  max-width: 144rem;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
