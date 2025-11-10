@@ -4,6 +4,38 @@ header {
   background-color: blue;
   height: 4rem;
 }
+header .header-div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .header-div .header-div-inner1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+header .header-div .header-div-inner1 span {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+header .header-div .header-div-inner2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.2rem;
+  gap: 1.5rem;
+  font-weight: bold;
+}
+header .header-div .header-div-inner2 span {
+  color: white;
+  font-size: 1.5rem;
+  border: 0.1rem solid white;
+  border-radius: 0.5rem;
+  padding: 0.3rem;
+}
 
 .puzzle-container {
   max-width: 100rem;
@@ -17,6 +49,59 @@ header {
   max-width: 44rem;
   background: pink;
   height: 100%;
+  border-radius: 0.5rem;
+}
+.goal-aside .aside-first-div {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 0.5rem;
+}
+.goal-aside .aside-first-div .aside-first-inner1 {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.goal-aside .aside-first-div .aside-first-inner1 span {
+  color: black;
+  background-color: white;
+  padding: 0.3rem 0.3rem;
+  border-radius: 0.8rem;
+}
+.goal-aside .aside-first-div .aside-first-inner1 button {
+  background-color: black;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+}
+.goal-aside .aside-first-div .aside-first-inner2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.goal-aside .aside-first-div .aside-first-inner2 h2 {
+  color: black;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.goal-aside .aside-first-div .aside-first-inner2 p {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+.goal-aside .aside-first-div .aside-first-inner3 {
+  width: 100%;
+}
+.goal-aside .aside-first-div .aside-first-inner3 span {
+  font-weight: bold;
+  font-size: 2rem;
+}
+.goal-aside .aside-first-div h1 {
+  font-size: 2.5rem;
+  color: black;
 }
 
 .puzzle-1 {

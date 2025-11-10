@@ -1,1 +1,15 @@
-{"version":3,"sourceRoot":"","sources":["../scss/components/_header.scss","../scss/layouts/_section.scss","../scss/layouts/_aside.scss","../scss/layouts/_puzzle1.scss","../scss/layouts/_puzzle-header.scss","../scss/main.scss"],"names":[],"mappings":"AAAA;EACE;EACA;EACA;EACA;;;ACJF;EACE;EACA;EACA;EACA;;;ACJF;EACE;EACA;EACA;EACA;;;ACJF;EACE;EACA;EACA;EACA;EACA;EAEA;;AACA;EACE;EACA;EACA;;AACA;EACE;EACA;;AAEF;EACE;EACA;EACA;EACA;;AACA;EACE;EACA;;AAEF;EACE;;AAIN;EACE;EACA;EACA;;;ACjCJ;EACE;EACA;EACA;EACA;;AACA;EACE;EACA;;AACA;EACE;EACA;;AAGJ;EACE;EACA;;;ACJJ;EACE;EACA;EACA;;;AAEF;EACE;;;AAGF;EACE;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;AACA;EACE;EACA;EACA;EACA;EACA;EACA","file":"styles.css"}
+{
+  "version": 3,
+  "sourceRoot": "",
+  "sources": [
+    "../scss/components/_header.scss",
+    "../scss/layouts/_section.scss",
+    "../scss/layouts/_aside.scss",
+    "../scss/layouts/_puzzle1.scss",
+    "../scss/layouts/_puzzle-header.scss",
+    "../scss/main.scss"
+  ],
+  "names": [],
+  "mappings": "AAAA;EACE;EACA;EACA;EACA;;;ACJF;EACE;EACA;EACA;EACA;;;ACJF;EACE;EACA;EACA;EACA;;;ACJF;EACE;EACA;EACA;EACA;EACA;EAEA;;AACA;EACE;EACA;EACA;;AACA;EACE;EACA;;AAEF;EACE;EACA;EACA;EACA;;AACA;EACE;EACA;;AAEF;EACE;;AAIN;EACE;EACA;EACA;;;ACjCJ;EACE;EACA;EACA;EACA;;AACA;EACE;EACA;;AACA;EACE;EACA;;AAGJ;EACE;EACA;;;ACJJ;EACE;EACA;EACA;;;AAEF;EACE;;;AAGF;EACE;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;AACA;EACE;EACA;EACA;EACA;EACA;EACA",
+  "file": "styles.css"
+}
