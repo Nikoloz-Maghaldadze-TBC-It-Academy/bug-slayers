@@ -8,11 +8,11 @@ export function puzzle2() {
   const inputRight = document.getElementById("right");
   const inputDown = document.getElementById("down");
   const inputLeft = document.getElementById("left");
+  const output = document.getElementById("output");
 
   up.addEventListener("click", () => (inputUp.textContent = "up"));
   right.addEventListener("click", () => (inputRight.textContent = "right"));
   left.addEventListener("click", () => (inputLeft.textContent = "left"));
-
   down.addEventListener("click", () => (inputDown.textContent = "down"));
 
   const correctCombination = ["1", "2", "3", "4"];
@@ -36,12 +36,14 @@ export function puzzle2() {
 
     if (!isCorrectSoFar) {
       console.log("Wrong combination, reset!");
+      output.textContent = 'wrong combination'
       userSequence = [];
       return;
     }
 
     if (userSequence.length === correctCombination.length) {
       console.log("TRUE — Correct combination!");
+      output.textContent = 'correct combination'
       userSequence = [];
     }
   }
