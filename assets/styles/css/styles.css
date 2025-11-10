@@ -112,31 +112,36 @@ header .header-div .header-div-inner2 span {
   width: 100%;
   height: auto;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 2rem;
   padding: 1rem;
 }
-.puzzle-1 .lamp-container {
+.puzzle-1 .puzzle-1-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+.puzzle-1 .puzzle-1-wrapper .lamp-container {
   border-radius: 1rem;
   width: 100%;
   height: 22rem;
   background: rgb(2, 0, 27);
 }
-.puzzle-1 .lamp-container .lamp-toggle {
+.puzzle-1 .puzzle-1-wrapper .lamp-container .lamp-toggle {
   display: flex;
   font-size: 2rem;
   padding-left: 1rem;
   padding-top: 1rem;
   gap: 2rem;
 }
-.puzzle-1 .lamp-container .lamp-toggle input {
+.puzzle-1 .puzzle-1-wrapper .lamp-container .lamp-toggle input {
   width: 2rem;
   border-radius: 999.9rem;
 }
-.puzzle-1 .lamp-container .lamp-toggle p {
+.puzzle-1 .puzzle-1-wrapper .lamp-container .lamp-toggle p {
   color: white;
 }
-.puzzle-1 .lamp-container .lamp-answer-cont {
+.puzzle-1 .puzzle-1-wrapper .lamp-container .lamp-answer-cont {
   position: relative;
   height: 15rem;
   border-radius: 2rem;
@@ -147,20 +152,21 @@ header .header-div .header-div-inner2 span {
   margin: 2rem;
   text-align: center;
 }
-.puzzle-1 .lamp-container .lamp-answer-cont .lamp-answer-inner-cont {
+.puzzle-1 .puzzle-1-wrapper .lamp-container .lamp-answer-cont .lamp-answer-inner-cont {
   background-color: rgb(52, 52, 132);
 }
-.puzzle-1 .lamp-container .lamp-answer-cont .lamp-answer-inner-cont p {
+.puzzle-1 .puzzle-1-wrapper .lamp-container .lamp-answer-cont .lamp-answer-inner-cont p {
   font-size: 2rem;
   color: white;
 }
-.puzzle-1 .lamp-container .lamp-answer-cont .lamp-answer-inner-cont #puzzle-1-code {
+.puzzle-1 .puzzle-1-wrapper .lamp-container .lamp-answer-cont .lamp-answer-inner-cont #puzzle-1-code {
   position: absolute;
+  bottom: 6rem;
   display: none;
   font-size: 2rem;
   columns: rgb(0, 0, 67);
 }
-.puzzle-1 .code-container {
+.puzzle-1 .puzzle-1-wrapper .code-container {
   border-radius: 2rem;
   display: flex;
   justify-content: center;
@@ -169,12 +175,12 @@ header .header-div .header-div-inner2 span {
   height: 20rem;
   background: rgb(2, 0, 27);
 }
-.puzzle-1 .code-container input {
+.puzzle-1 .puzzle-1-wrapper .code-container input {
   border-radius: 1rem;
   height: 4rem;
   border: none;
 }
-.puzzle-1 .code-container button {
+.puzzle-1 .puzzle-1-wrapper .code-container button {
   border-radius: 1rem;
   padding: 1rem;
 }
