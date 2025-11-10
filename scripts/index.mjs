@@ -9,3 +9,5 @@ puzzleName.innerHTML = data1.name;import * as puzzle1 from "./modules/puzzle1.mj
 
 puzzle1.default();
 puzzle1.insertValue();
+import {startpuzzle3} from './modules/puzzle3.mjs';
+startpuzzle3();
