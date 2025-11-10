@@ -20,6 +20,7 @@ export function insertValue() {
   const nextButton = document.querySelector(".button-next");
   const codeInput = document.getElementById("code-input");
   const codeBttn = document.querySelector(".code-submit");
+  const puzzle1 = document.querySelector('.puzzle-1');
   //   const secretCode = 100;
 
   codeBttn.addEventListener("click", () => {
@@ -31,6 +32,7 @@ export function insertValue() {
       sum += 1;
       console.log(sum);
       nextButton.addEventListener('click', ()=>{
+      puzzle1.style.display='none';
       asideData.innerText = sum;
     })
       
