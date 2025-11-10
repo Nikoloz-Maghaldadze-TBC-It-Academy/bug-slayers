@@ -1,3 +1,5 @@
+import {data1} from "../data1.js";
+
 export default function toggleLamp() {
   const toggleSwitch = document.querySelector(".toggle-input");
   const toggleCode = document.getElementById("puzzle-1-code");
@@ -14,6 +16,8 @@ export default function toggleLamp() {
 }
 export let answer = null;
 export function insertValue() {
+  const asideData = document.querySelector(".aside-puzzle-id");
+  const nextButton = document.querySelector(".button-next");
   const codeInput = document.getElementById("code-input");
   const codeBttn = document.querySelector(".code-submit");
   //   const secretCode = 100;
@@ -22,9 +26,20 @@ export function insertValue() {
     const inputValue = codeInput.value.trim();
     if (inputValue === "100") {
       answer = true;
+      nextButton.disabled = false;
+      let sum = parseInt(data1.id);
+      sum += 1;
+      console.log(sum);
+      nextButton.addEventListener('click', ()=>{
+      asideData.innerText = sum;
+    })
+      
     } else {
       answer = false;
     }
+
+    
+
     console.log(answer);
   });
 }
