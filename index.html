@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -15,14 +16,14 @@
             <span>Escape Room - </span>
             <span>Room 404</span>
           </div>
-
+ 
           <div class="header-div-inner2">
             <span>Time</span>
             <span id="countdown">20:00</span>
           </div>
         </div>
       </header>
-
+ 
       <main>
         <aside class="goal-aside">
           <div class="aside-first-div">
@@ -39,7 +40,7 @@
                 <button class="aside-restart">Restart Run</button>
               </div>
             </div>
-
+ 
             <div class="aside-first-inner2">
               <h2 class="aside-goals">Goal</h2>
               <p class="aside-goalp">
@@ -48,7 +49,7 @@
                 escape before time runs out!
               </p>
             </div>
-
+ 
             <div class="aside-first-inner3">
               <span>Inventory</span>
               <ul>
@@ -61,49 +62,46 @@
         </aside>
         <section class="puzzle-container">
           <section>
-            
             <div class="puzzle-1">
-                <div class="puzzle-header">
-              <div class="puzzle-header-name">
-                <p>Puzzle 1 -- The Painting</p>
-              </div>
-              <div class="puzzle-header-description">
-                A dusty painting hangs on the wall. A desk lamp nearby has a UV
-                bulb
-              </div>
-            </div>
-              <div class="lamp-container">
-                <div class="lamp-toggle">
-                  <input class="toggle-input" type="checkbox" />
-                  <p>Toggle UV Lamp</p>
+              <div class="puzzle-header">
+                <div class="puzzle-header-name">
+                  <p>Puzzle 1 -- The Painting</p>
                 </div>
-                <div class="lamp-answer-cont">
-                  <div class="lamp-answer-inner-cont">
-                    <p>Abstract Shapes</p>
-                    <span id="puzzle-1-code">100</span>
+                <div class="puzzle-header-description">
+                  A dusty painting hangs on the wall. A desk lamp nearby has a
+                  UV bulb
+                </div>
+              </div>
+              <div class="puzzle-1-wrapper">
+                <div class="lamp-container">
+                  <div class="lamp-toggle">
+                    <input class="toggle-input" type="checkbox" />
+                    <p>Toggle UV Lamp</p>
+                  </div>
+                  <div class="lamp-answer-cont">
+                    <div class="lamp-answer-inner-cont">
+                      <p>Abstract Shapes</p>
+                      <span id="puzzle-1-code">100</span>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="code-container">
-                <div class="code-cont-inner">
-                  <input id="code-input" type="text" />
-                  <button class="code-submit">Submit</button>
+                <div class="code-container">
+                  <div class="code-cont-inner">
+                    <input id="code-input" type="text" />
+                    <button class="code-submit">Submit</button>
+                  </div>
                 </div>
-              </div>
-              <div class="down-side">
-                <p>Panel clicks lock in the second digt.</p>
-                <button class="button-next" disabled>Next</button>
               </div>
             </div>
             <div class="puzzle-2">
               <div class="puzzle-2-container">
-                <h2>puzzle 2 - The arrow panel</h2>
-                <p>small panel th four arrow button. next to it: a rug corner lifted revealing a scribble: URDL</p>
+                <h2>puzzle-2</h2>
+                <p>small panel th four arrow button</p>
                 <div class="arrows-container">
                   <div value="1" class="arrow arrow-up">&#x2191;</div>
-                  <div value="2" class="arrow arrow-right">&#x2192;</div>
-                  <div value="4" class="arrow arrow-left">&#x2190;</div>
-                  <div value="3" class="arrow arrow-down">&#x2193;</div>
+                  <div value="4" class="arrow arrow-left">&#x2192;</div>
+                  <div value="3" class="arrow arrow-right">&#x2190;</div>
+                  <div value="2" class="arrow arrow-down">&#x2193;</div>
                 </div>
                 <div class="task-description">
                   <h3>Input</h3>
@@ -113,7 +111,6 @@
                     <p id="down"></p>
                     <p id="left"></p>
                   </div>
-                  <p id="output"></p>
                 </div>
               </div>
               <div class="down-side">
@@ -121,7 +118,7 @@
                 <button class="button-next">Next</button>
               </div>
             </div>
-
+ 
             <!-- !amaze mushaob -->
             <div class="puzzle-3">
               <h2 class="puzzle-3__header">Puzzle 3 - The teminal note</h2>
@@ -172,10 +169,6 @@
                     <!-- <div>Digit3: 4</div> -->
                   </div>
                 </div>
-              </div>
-              <div class="down-side">
-                <p>Panel clicks lock in the second digt.</p>
-                <button class="button-next">Next</button>
               </div>
             </div>
           </section>
