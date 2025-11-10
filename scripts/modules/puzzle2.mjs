@@ -9,6 +9,7 @@ export function puzzle2() {
   const inputDown = document.getElementById("down");
   const inputLeft = document.getElementById("left");
   const output = document.getElementById("output");
+  const next = document.querySelector(".button-next");
 
   up.addEventListener("click", () => (inputUp.textContent = "up"));
   right.addEventListener("click", () => (inputRight.textContent = "right"));
@@ -45,6 +46,7 @@ export function puzzle2() {
       console.log("TRUE — Correct combination!");
       output.textContent = "correct combination";
       userSequence = [];
+      next.disabled = false;
       return true;
     }
   }
