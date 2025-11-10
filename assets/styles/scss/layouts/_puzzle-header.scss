@@ -1,0 +1,18 @@
+.puzzle-header {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  .puzzle-header-name {
+    display: flex;
+    flex-direction: row;
+    p {
+      font-size: 3rem;
+      color: white;
+    }
+  }
+  .puzzle-header-description {
+    font-size: 2.5rem;
+    color: white;
+  }
+}
