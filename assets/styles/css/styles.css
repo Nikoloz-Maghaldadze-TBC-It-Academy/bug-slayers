@@ -45,6 +45,7 @@ header {
   padding: 0.5rem;
   text-align: center;
   border-radius: 0.5rem;
+  cursor: pointer;
 }
 .puzzle-2 .puzzle-2-container .task-description {
   display: flex;
