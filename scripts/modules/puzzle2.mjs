@@ -32,9 +32,9 @@ export function puzzle2() {
   let userSequence = [];
   const outputElement = document.querySelectorAll(".arrow");
 
-  buttons.forEach((button) => {
-    button.addEventListener("click", handleButtonClick);
-  });
+  // buttons.forEach((button) => {
+  //   button.addEventListener("click", handleButtonClick);
+  // });
 
   function handleButtonClick(event) {
     const clickedValue = event.target.value;

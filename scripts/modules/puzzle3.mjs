@@ -9,6 +9,7 @@ const code1 = document.getElementById("code1");
 const code2 = document.getElementById("code2");
 const code3 = document.getElementById("code3");
 const clear = document.getElementById("clear");
+const congratulations = document.querySelector('.puzzle-3');
 buttons.forEach((el) => {
   el.addEventListener("click", function (e) {
     console.log(e);
@@ -34,6 +35,7 @@ numbersbtn.forEach((btn) => {
         pinArr.push(code3.innerText);
         if(pinArr.join("") === pin){
            console.log(true);
+           congratulations.innerHTML = `<h1>Hello</h1>`
         }
     }else{
         return;
