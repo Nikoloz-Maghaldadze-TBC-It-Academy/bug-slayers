@@ -1,0 +1,8 @@
+import startCountdown from "./time.mjs";
+import { data1 } from "./data1.js";
+startCountdown(20, 'countdown');
+
+let puzzleId = document.querySelector(".aside-puzzle-id");
+puzzleId.innerHTML = data1.id;
+let puzzleName = document.querySelector(".aside-puzzle-name");
+puzzleName.innerHTML = data1.name;
