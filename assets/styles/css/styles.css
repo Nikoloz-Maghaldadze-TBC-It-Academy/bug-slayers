@@ -205,6 +205,7 @@ header .header-div .header-div-inner2 span {
   padding: 0.5rem;
   text-align: center;
   border-radius: 0.5rem;
+  cursor: pointer;
 }
 .puzzle-2 .puzzle-2-container .task-description {
   display: flex;
